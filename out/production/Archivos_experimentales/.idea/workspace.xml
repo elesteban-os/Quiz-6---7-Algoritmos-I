@@ -37,6 +37,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Archivos_experimentales" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Archivos_experimentales" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BinaryHeap" />
@@ -53,6 +66,8 @@
       <updated>1634267801783</updated>
       <workItem from="1634267803369" duration="1841000" />
       <workItem from="1634316888345" duration="3467000" />
+      <workItem from="1634324436406" duration="1497000" />
+      <workItem from="1634326826451" duration="19000" />
     </task>
     <servers />
   </component>
