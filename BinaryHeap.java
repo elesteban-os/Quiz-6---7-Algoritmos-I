@@ -94,7 +94,11 @@ public class BinaryHeap {
         int temp = heap[i];
         while(kthChild(i, 1) < heapSize){
             child = maxChild(i);
-            if(temp < heap[child]){ heap[i] = heap[child]; }else break; i = child; } heap[i] = temp; } private int maxChild(int i) { int leftChild = kthChild(i, 1); int rightChild = kthChild(i, 2); return heap[leftChild]>heap[rightChild]?leftChild:rightChild;
+            if(temp < heap[child]){
+                heap[i] = heap[child];
+            }else break; i = child;} heap[i] = temp;
+    } private int maxChild(int i) { int leftChild = kthChild(i, 1); int rightChild = kthChild(i, 2);
+        return heap[leftChild]>heap[rightChild]?leftChild:rightChild;
     }
      
     /**
